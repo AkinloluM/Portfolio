@@ -31,3 +31,17 @@ nav ul a:hover {
     color: rgb(209, 209, 209);
 }
 
+.about, .work, .contact {
+    display: flex;
+    margin-top: 25px;
+}
+
+.left {
+    width: 25%;
+    text-align: center;
+}
+
+.right {
+    width: 65%;
+}
+
