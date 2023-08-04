@@ -7,8 +7,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 8px 2rem;
     background-color: rgb(48, 136, 187);
     color: white;
 }
@@ -45,3 +44,16 @@ nav ul a:hover {
     width: 65%;
 }
 
+.right ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer {
+    background-color: rgb(48, 136, 187);
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
